@@ -2,13 +2,13 @@
   "name": "incidents-mcp",
   "version": "1.0.0",
   "description": "MCP server that provides incident details",
-  "type": "module",
-  "main": "incidents.mjs",
+  "main": "incidents.js",
   "bin": {
-    "incidents-mcp": "incidents.mjs"
+    "incidents-mcp": "incidents.js"
   },
   "scripts": {
-    "start": "node incidents.mjs"
+    "start": "node incidents.js",
+    "start:http": "node incidents-http.js"
   },
   "keywords": ["mcp", "incidents"],
   "engines": {
