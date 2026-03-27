@@ -1,0 +1,22 @@
+---
+description: Enforce blameless RCA language focused on systems and process improvements.
+alwaysApply: true
+---
+
+# RCA Blameless Tone
+
+RCA output must remain blameless and system-focused.
+
+## Required style
+- Prefer "we" over "they".
+- Describe contributing conditions and process/system gaps.
+- Use neutral, factual wording tied to evidence.
+
+## Disallowed content
+- Individual blame
+- Emotionally charged or judgmental language
+- Speculative statements presented as fact
+
+If violations appear:
+- Rewrite content to blameless wording.
+- Re-run scrutiny checks before continuing.

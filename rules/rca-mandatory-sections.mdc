@@ -1,0 +1,21 @@
+---
+description: Enforce mandatory RCA report sections before scrutiny and finalization.
+alwaysApply: true
+---
+
+# RCA Mandatory Sections
+
+RCA drafts must include all of the following sections before scrutiny proceeds:
+
+1. Incident summary
+2. Impact
+3. Timeline
+4. Root cause
+5. Solution
+6. Action items
+7. Mitigation plan
+
+If any section is missing:
+- Stop progression.
+- Explicitly request only missing information.
+- Resume workflow only after completion.
