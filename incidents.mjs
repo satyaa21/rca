@@ -145,7 +145,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("incidents-mcp running on stdio");
+  console.log("incidents-mcp running on stdio");
 }
 
 main().catch((error) => {
