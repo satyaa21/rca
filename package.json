@@ -2,7 +2,7 @@
   "name": "incidents-mcp",
   "version": "1.0.0",
   "description": "MCP server for incident details (stdio or Streamable HTTP)",
-  "main": "incidents.js",
+  "main": "incidents-http.js",
   "bin": {
     "incidents-mcp": "incidents.js",
     "incidents-mcp-http": "incidents-http.js"
