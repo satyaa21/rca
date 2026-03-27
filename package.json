@@ -1,10 +1,11 @@
 {
   "name": "incidents-mcp",
   "version": "1.0.0",
-  "description": "MCP server that provides incident details",
+  "description": "MCP server for incident details (stdio or Streamable HTTP)",
   "main": "incidents.js",
   "bin": {
-    "incidents-mcp": "incidents.js"
+    "incidents-mcp": "incidents.js",
+    "incidents-mcp-http": "incidents-http.js"
   },
   "scripts": {
     "start": "node incidents.js",
@@ -15,6 +16,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.26.0"
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "express": "^5.2.1"
   }
 }
