@@ -16,7 +16,7 @@ const incidents = {
       "10:45 AM - Incident resolved"
     ]
   },
-  INC101: {
+  "INC-102": {
     summary: "Delayed notifications in messaging service",
     impact: "Messages delivered with 5–10 minute delay",
     timeline: [
